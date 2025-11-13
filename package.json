@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index02.js"
+    "start": "node src/index01.js && node src/index02.js",
+    "start:01": "node src/index01.js",
+    "start:02": "node src/index02.js"
   },
   "keywords": [],
   "author": "",
